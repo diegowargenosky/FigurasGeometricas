@@ -12,27 +12,28 @@ public class Teste {
 
 		Quadrado quadrado = new Quadrado();
 
-		System.out.println("Vamos calcular a área de um quadrado" + "\n");
+		System.out.println("Vamos calcular a Ã¡rea de um quadrado" + "\n");
 		System.out.println("Informe a medida dos lados:");
 		double ladoQ = sc.nextDouble();
 
 		System.out.println("Nome:");
-		String nomeQ = sc.next();
+		sc.nextLine();
+		String nomeQ = sc.nextLine();
 
 		System.out.println("Cor:");
-		String corQ = sc.next();
+		String corQ = sc.nextLine();
 
 		quadrado.setNome(nomeQ);
 		quadrado.setCor(corQ);
 		quadrado.setLado(ladoQ);
 
-		System.out.println("Cálculo da área do quadrado: ");
+		System.out.println("CÃ¡lculo da Ã¡rea do quadrado: ");
 		System.out.println(quadrado.calcularArea());
 		System.out.println("---------------------------------------------");
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 		Triangulo triangulo = new Triangulo();
 
-		System.out.println("Vamos calcular a área de um triângulo:" + "\n");
+		System.out.println("Vamos calcular a Ã¡rea de um triÃ¢ngulo:" + "\n");
 
 		System.out.println("Informe a medida da base:");
 		double baseT = sc.nextDouble();
@@ -41,42 +42,44 @@ public class Teste {
 		double alturaT = sc.nextDouble();
 
 		System.out.println("Nome:");
-		String nomeT = sc.next();
+		sc.nextLine();
+		String nomeT = sc.nextLine();
 
 		System.out.println("Cor:");
-		String corT = sc.next();
+		String corT = sc.nextLine();
 
 		triangulo.setBase(baseT);
 		triangulo.setAltura(alturaT);
 		triangulo.setNome(nomeT);
 		triangulo.setCor(corT);
 
-		System.out.println("Cálculo da área do triângulo:");
+		System.out.println("CÃ¡lculo da Ã¡rea do triÃ¢ngulo:");
 		System.out.println(triangulo.calcularArea());
 		System.out.println("------------------------------------------");
 /////////////////////////////////////////////////////////////////////////////////////////////////////		
 		Circulo circulo = new Circulo();
-		System.out.println("Vamos calcular a área de um círculo:" + "\n");
+		System.out.println("Vamos calcular a Ã¡rea de um cÃ­rculo:" + "\n");
 
-		System.out.println("Informe o valor do raio do círculo:");
+		System.out.println("Informe o valor do raio do cÃ­rculo:");
 		double raioC = sc.nextDouble();
 
 		System.out.println("Nome:");
-		String nomeC = sc.next();
+		sc.nextLine();
+		String nomeC = sc.nextLine();
 
 		System.out.println("Cor:");
-		String corC = sc.next();
+		String corC = sc.nextLine();
 
 		circulo.setNome(nomeC);
 		circulo.setCor(corC);
 		circulo.setRaio(raioC);
-		System.out.println("Cálculo da área do círculo:");
+		System.out.println("CÃ¡lculo da Ã¡rea do cÃ­rculo:");
 		System.out.println(circulo.calcularArea());
 		System.out.println("------------------------------------------------");
 ///////////////////////////////////////////////////////////////////////////////////////////////////////		
 
 		Piramide piramide = new Piramide();
-		System.out.println("Vamos calcular o volume e a área total de uma pirâmide:" + "\n");
+		System.out.println("Vamos calcular o volume e a Ã¡rea total de uma pirÃ¢mide:" + "\n");
 
 		System.out.println("Informe o valor das arestas:");
 		double arestasP = sc.nextDouble();
@@ -85,7 +88,8 @@ public class Teste {
 		double alturaP = sc.nextDouble();
 
 		System.out.println("Nome:");
-		String nomeP = sc.next();
+		sc.nextLine();
+		String nomeP = sc.nextLine();
 
 		System.out.println("Cor:");
 		String corP = sc.nextLine();
@@ -95,23 +99,24 @@ public class Teste {
 		piramide.setAltura(alturaP);
 		piramide.setArestas(arestasP);
 
-		System.out.println("Cálculo do volume da pirâmide:");
+		System.out.println("CÃ¡lculo do volume da pirÃ¢mide:");
 		System.out.println(piramide.calcularVolume() + "\n");
 
-		System.out.println("Cálculo da área total da pirâmide:");
+		System.out.println("CÃ¡lculo da Ã¡rea total da pirÃ¢mide:");
 		System.out.println(piramide.AreaTotal());
 		System.out.println("--------------------------------------------");
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		System.out.println("Vamos calcular o volume e a área de um cubo:");
+		System.out.println("Vamos calcular o volume e a Ã¡rea de um cubo:");
 
 		Cubo cubo = new Cubo();
 
 		System.out.println("Nome:");
-		String nomeCB = sc.next();
+		
+		String nomeCB = sc.nextLine();
 
 		System.out.println("Cor:");
-		String corCB = sc.next();
+		String corCB = sc.nextLine();
 
 		System.out.println("Informe a medida da aresta:");
 		double arestaCB = sc.nextDouble();
@@ -120,21 +125,22 @@ public class Teste {
 		cubo.setCor(corCB);
 		cubo.setAresta(arestaCB);
 
-		System.out.println("Cálculo da área do cubo:");
+		System.out.println("CÃ¡lculo da Ã¡rea do cubo:");
 		System.out.println(cubo.calcularArea());
-		System.out.println("Cálculo do volume do cubo:");
+		System.out.println("CÃ¡lculo do volume do cubo:");
 		System.out.println(cubo.calcularVolume());
 		System.out.println("--------------------------------------------------------------");
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		System.out.println("Vamos calcular a área e volume de um cilindro:");
+		System.out.println("Vamos calcular a Ã¡rea e volume de um cilindro:");
 
 		Cilindro cilindro = new Cilindro();
 
 		System.out.println("Nome:");
-		String nomeCL = sc.next();
+		sc.nextLine();
+		String nomeCL = sc.nextLine();
 
 		System.out.println("Cor");
-		String corCL = sc.next();
+		String corCL = sc.nextLine();
 
 		System.out.println("Altura:");
 		double alturaCL = sc.nextDouble();
@@ -147,13 +153,13 @@ public class Teste {
 		cilindro.setAltura(alturaCL);
 		cilindro.setRaio(raioCL);
 
-		System.out.println("Área total do cilindro:");
+		System.out.println("Ãrea total do cilindro:");
 		System.out.println(cilindro.calcularArea());
 
 		System.out.println("Volume do cilindro:");
 		System.out.println(cilindro.calcularVolume() + "\n");
 
-		System.out.println("Segue abaixo a lista com todas as formas geométricas com suas medidas e cálculos:" + "\n");
+		System.out.println("Segue abaixo a lista com todas as formas geomÃ©tricas com suas medidas e cÃ¡lculos:" + "\n");
 
 		List<FiguraGeometrica> figurasGeometricas = new ArrayList<FiguraGeometrica>();
 
