@@ -1,4 +1,6 @@
-package Exercicio_FigurasGeometricas;
+package entidades;
+
+import classesFilhas.Figura3D;
 
 public class Cubo extends Figura3D  
 
@@ -30,11 +32,11 @@ public class Cubo extends Figura3D
 	public String toString() {
 		
 		String cb;
-		System.out.println("Figura geométrica cubo: "+"\n");
+		System.out.println("Figura geomï¿½trica cubo: "+"\n");
 		cb = "Nome: "+getNome()+"\n";
 		cb += "Cor: "+getCor()+"\n";
-		cb += "Cálculo do volume: "+calcularVolume()+"\n";
-		cb += "Área total: "+calcularArea()+" PI cm²"+"\n";
+		cb += "Cï¿½lculo do volume: "+calcularVolume()+"\n";
+		cb += "ï¿½rea total: "+calcularArea()+" PI cmï¿½"+"\n";
 		
 		return cb;
 	}

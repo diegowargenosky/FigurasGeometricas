@@ -1,4 +1,4 @@
-package Exercicio_FigurasGeometricas;
+package classeMae;
 
 public class FiguraGeometrica {
 	

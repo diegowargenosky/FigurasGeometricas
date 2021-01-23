@@ -1,4 +1,6 @@
-package Exercicio_FigurasGeometricas;
+package entidades;
+
+import classesFilhas.Figura2D;
 
 public class Quadrado extends Figura2D {
 	
@@ -31,10 +33,10 @@ public class Quadrado extends Figura2D {
 	public String toString() {
 		
 		String s;
-		System.out.println("Figura geomética quadrado:"+"\n");
+		System.out.println("Figura geomï¿½tica quadrado:"+"\n");
 		s ="Nome: "+ getNome()+"\n";
 		s+= "Cor: "+getCor()+"\n";
-		s+= "Cálculo da área: "+calcularArea()+" cm"+"\n";
+		s+= "Cï¿½lculo da ï¿½rea: "+calcularArea()+" cm"+"\n";
 		
 		
 		return s;

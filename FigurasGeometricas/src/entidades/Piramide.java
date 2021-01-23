@@ -1,4 +1,6 @@
-package Exercicio_FigurasGeometricas;
+package entidades;
+
+import classesFilhas.Figura3D;
 
 public class Piramide extends Figura3D {
 
@@ -47,12 +49,12 @@ public class Piramide extends Figura3D {
 	public String toString() {
 		
 		String p;
-		System.out.println("Figura geométrica pirâmide:"+"\n");
+		System.out.println("Figura geomï¿½trica pirï¿½mide:"+"\n");
 		
 		p = "Nome: "+getNome()+"\n";
 		p += "Cor: "+getCor()+"\n";
 		p += "Volume: "+calcularVolume()+"\n";
-		p += "Área total: "+AreaTotal()+" PI cm²"+"\n";
+		p += "ï¿½rea total: "+AreaTotal()+" PI cmï¿½"+"\n";
 		return p;
 	}
 	

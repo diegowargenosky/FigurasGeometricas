@@ -1,6 +1,15 @@
-package Exercicio_FigurasGeometricas;
+package programaTeste;
 
 import java.util.Scanner;
+
+import classeMae.FiguraGeometrica;
+import entidades.Cilindro;
+import entidades.Circulo;
+import entidades.Cubo;
+import entidades.Piramide;
+import entidades.Quadrado;
+import entidades.Triangulo;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;

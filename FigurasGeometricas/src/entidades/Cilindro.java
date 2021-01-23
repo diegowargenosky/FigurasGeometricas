@@ -1,4 +1,6 @@
-package Exercicio_FigurasGeometricas;
+package entidades;
+
+import classesFilhas.Figura3D;
 
 public class Cilindro extends Figura3D {
 
@@ -55,11 +57,11 @@ public class Cilindro extends Figura3D {
 	public String toString() {
 		
 		String c;
-		System.out.println("Figura geométrica cilindro:"+"\n");
+		System.out.println("Figura geomï¿½trica cilindro:"+"\n");
 		c = "Nome: "+getNome()+"\n";
 		c += "Cor: "+getCor()+"\n";
-		c += "Cálculo do volume: "+calcularVolume()+"\n";
-		c += "Área total: "+calcularArea()+" PI cm²"+"\n";
+		c += "Cï¿½lculo do volume: "+calcularVolume()+"\n";
+		c += "ï¿½rea total: "+calcularArea()+" PI cmï¿½"+"\n";
 		return c;
 	}
 	

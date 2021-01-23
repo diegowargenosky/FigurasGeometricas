@@ -1,4 +1,6 @@
-package Exercicio_FigurasGeometricas;
+package entidades;
+
+import classesFilhas.Figura2D;
 
 public class Circulo extends Figura2D  {
 	
@@ -34,11 +36,11 @@ public class Circulo extends Figura2D  {
 	public String toString() {
 		
 		String c;
-		System.out.println("Figura geométrica círculo: "+"\n");
+		System.out.println("Figura geomï¿½trica cï¿½rculo: "+"\n");
 		
 		c = "Nome: "+getNome()+"\n";
 		c += "Cor: "+getCor()+"\n";
-		c += "Cálculo da área: "+calcularArea()+" cm"+"\n";	
+		c += "Cï¿½lculo da ï¿½rea: "+calcularArea()+" cm"+"\n";	
 		return c ;
 	}
 	

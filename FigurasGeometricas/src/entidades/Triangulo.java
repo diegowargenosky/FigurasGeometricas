@@ -1,4 +1,6 @@
-package Exercicio_FigurasGeometricas;
+package entidades;
+
+import classesFilhas.Figura2D;
 
 public class Triangulo extends Figura2D  {
 	
@@ -43,10 +45,10 @@ public class Triangulo extends Figura2D  {
 	public String toString() {
 		
 		String t;
-		System.out.println("Figura geométrica triângulo:"+"\n");
+		System.out.println("Figura geomï¿½trica triï¿½ngulo:"+"\n");
 		t = "Nome: "+getNome()+"\n";
 		t += "Cor: "+getCor()+"\n";
-		t += "Cálculo da área: "+calcularArea()+" cm"+"\n";
+		t += "Cï¿½lculo da ï¿½rea: "+calcularArea()+" cm"+"\n";
 		
 		
 		

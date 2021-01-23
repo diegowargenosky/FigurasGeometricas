@@ -1,4 +1,4 @@
-package Exercicio_FigurasGeometricas;
+package interfaces;
 
 public interface DimensaoVolumetrica {
 
